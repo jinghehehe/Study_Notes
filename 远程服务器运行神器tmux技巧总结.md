@@ -29,7 +29,13 @@
 	$ brew install tmux
 	```
 	
-	- 启动与
+	- 启动与退出：
+	- 安装完成后，键入tmux命令，就进入了 Tmux 窗口。按下Ctrl+d或者显式输入exit命令，就可以退出 Tmux 窗口
+	```language
+	$ tmux
+	$ exit
+	```
+
 	
 
 
