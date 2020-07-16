@@ -46,6 +46,15 @@
 	- 分离会话：
 	在 Tmux 窗口中，按下Ctrl+b d或者输入tmux detach命令，就会将当前会话与窗口分离。命令执行后，就会退出当前
  	Tmux 窗口，但是会话和里面的进程仍然在后台运行。
+	```language
+	$ tmux detach
+```
+	tmux ls命令可以查看当前所有的 Tmux 会话。
+	```language
+	$ tmux ls
+```	
+
+
 
 	
 
