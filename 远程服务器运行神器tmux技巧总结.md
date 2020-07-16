@@ -67,6 +67,14 @@
 	```	
 	- 切换会话：
 	tmux switch命令用于切换会话
+	```language
+	# 使用会话名称
+	$ tmux switch -t <session-name>
+	```
+
+- 最简操作流程：
+	- 
+
 	
 
 
