@@ -78,6 +78,12 @@
 	3. 按下快捷键Ctrl+b d将会话分离或tmux detach
 	4. 下次使用时，重新连接到会话tmux attach -t my_session。
 
+
+- 参考文献
+	[tmux详细操作说明](http://www.ruanyifeng.com/blog/2019/10/tmux.html)
+
+
+
 	
 
 
