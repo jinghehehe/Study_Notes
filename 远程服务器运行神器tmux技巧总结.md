@@ -81,6 +81,7 @@
 
 - 参考文献
 	[tmux详细操作说明](http://www.ruanyifeng.com/blog/2019/10/tmux.html)
+	[linux后台运行&和nohup操作说明](https://blog.csdn.net/liuyanfeier/article/details/62422742)
 
 
 
