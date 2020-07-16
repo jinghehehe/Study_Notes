@@ -17,5 +17,18 @@
 	4. 它还支持窗口任意的垂直和水平拆分。
 
 - 基本用法：
+	- 安装：
+	```language
+	# Ubuntu 或 Debian
+$ sudo apt-get install tmux
+
+# CentOS 或 Fedora
+$ sudo yum install tmux
+
+# Mac
+$ brew install tmux
+```
+
+	
 
 
