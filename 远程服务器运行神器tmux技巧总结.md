@@ -73,7 +73,10 @@
 	```
 
 - 最简操作流程：
-	- 
+	1. 新建会话tmux new -s my_session
+	2. 在 Tmux 窗口运行所需的程序
+	3. 按下快捷键Ctrl+b d将会话分离或tmux detach
+	4. 
 
 	
 
