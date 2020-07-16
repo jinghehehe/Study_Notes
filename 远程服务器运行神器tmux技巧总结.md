@@ -20,15 +20,16 @@
 	- 安装：
 	```language
 	# Ubuntu 或 Debian
-$ sudo apt-get install tmux
+	$ sudo apt-get install tmux
 
-# CentOS 或 Fedora
-$ sudo yum install tmux
+	# CentOS 或 Fedora
+	$ sudo yum install tmux
 
-# Mac
-$ brew install tmux
-```
-
+	# Mac
+	$ brew install tmux
+	```
+	
+	- 启动与
 	
 
 
