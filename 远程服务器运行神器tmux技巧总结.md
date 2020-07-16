@@ -56,8 +56,11 @@
 	- 接入会话：
 	tmux attach命令用于重新接入某个已存在的会话
 	```language
-	$ tmux ls
+	# 使用会话名称
+	$ tmux attach -t <session-name>
 	```	
+	- 杀死会话：
+	tmux kill-session命令用于杀死某个会话
 
 
 
