@@ -61,7 +61,13 @@
 	```	
 	- 杀死会话：
 	tmux kill-session命令用于杀死某个会话
-
+	```language
+	# 使用会话名称
+	$ tmux kill-session -t <session-name>
+	```	
+	- 切换会话：
+	tmux switch命令用于切换会话
+	
 
 
 	
