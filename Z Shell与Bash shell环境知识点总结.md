@@ -6,4 +6,4 @@ Shell 是一个应用程序，它连接了用户和 Linux 内核，让用户能�
 cat /etc/shells
 ```
 ### zsh简介
-- Zsh是一个Linux下强大的shell,
+- Zsh是一个Linux下强大的shell,其功能
