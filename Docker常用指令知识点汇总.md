@@ -45,9 +45,20 @@ cp PROJECT_NAME CONTAINER_NAME:/xxxx(容器内的路径)
 ```
 ***
 - 将运行的容器保存为镜像
-docker save IMAGE_NAME -o ZIP_NAME    将镜像压缩为压缩包
+```language
+docker commit CONTAINER_NAME IMAGE_NAME   
+```
 
-docker load -i xxx.tar    镜像载入
+- 将镜像压缩为压缩包
+```language
+docker save IMAGE_NAME -o ZIP_NAME.tar   
+```
+
+- 镜像载入
+```language
+docker load -i xxx.tar   
+```
+
 
 其他指令：
 docker rmi IMAGEID/REPOSITORY:TAG    删除镜像
