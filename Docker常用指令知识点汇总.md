@@ -38,7 +38,7 @@ docker attach CONTAINER_NAME
 ```
 
 ***
-进入容器后安装所需要的环境pip，conda
+进入容器后安装所需要的环境pip，conda虚拟环境直接移植（未成功，理论可行）
 将项目拷贝至容器内
 cp PROJECT_NAME CONTAINER_NAME:/xxxx(容器内的路径)
 ***
