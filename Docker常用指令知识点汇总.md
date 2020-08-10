@@ -72,5 +72,18 @@ docker rm CONTAINER_NAME
 ```
 
 - 查看已有容器（-a表示正在运行的）
-docker tag IMAGE REPOSITOY:TAG    重命名镜像
-docker old_CONTAINER_NAME new_CONTAINER_NAME    重命名容器名
+```language
+docker ps (-a)   
+```
+
+- 重命名镜像
+```language
+docker tag IMAGE REPOSITOY:TAG   
+```
+
+- 重命名容器名
+```language
+docker old_CONTAINER_NAME new_CONTAINER_NAME   
+```
+
+
