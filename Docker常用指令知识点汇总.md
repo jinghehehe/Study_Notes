@@ -38,12 +38,13 @@ docker attach CONTAINER_NAME
 ```
 
 ***
-进入容器后安装所需要的环境pip，conda虚拟环境直接移植（未成功，理论可行）
-将项目拷贝至容器内
+- 进入容器后安装所需要的环境pip，conda虚拟环境直接移植（未成功，理论可行）
+- 将项目拷贝至容器内
+```language
 cp PROJECT_NAME CONTAINER_NAME:/xxxx(容器内的路径)
+```
 ***
-
-docker commit CONTAINER_NAME IMAGE_NAME    将运行的容器保存为镜像
+- 将运行的容器保存为镜像
 docker save IMAGE_NAME -o ZIP_NAME    将镜像压缩为压缩包
 
 docker load -i xxx.tar    镜像载入
