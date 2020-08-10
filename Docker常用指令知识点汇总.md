@@ -59,10 +59,18 @@ docker save IMAGE_NAME -o ZIP_NAME.tar
 docker load -i xxx.tar   
 ```
 
-
+***
 其他指令：
-docker rmi IMAGEID/REPOSITORY:TAG    删除镜像
-docker rm CONTAINER_NAME    删除容器
-docker ps (-a)    查看已有容器（-a表示正在运行的）
+- 删除镜像
+```language
+docker rmi IMAGEID/REPOSITORY:TAG   
+```
+
+- 删除容器
+```language
+docker rm CONTAINER_NAME   
+```
+
+- 查看已有容器（-a表示正在运行的）
 docker tag IMAGE REPOSITOY:TAG    重命名镜像
 docker old_CONTAINER_NAME new_CONTAINER_NAME    重命名容器名
