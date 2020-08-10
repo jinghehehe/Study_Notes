@@ -12,4 +12,38 @@
 
 
 ## Docker常用指令汇总
-- 
+- 从网络上拉取基础镜像
+```language
+docker pull xxxxx    
+```
+
+- 查看已有镜像
+```language
+docker images   
+```
+
+-创建容器并使用gpu
+```language
+
+```
+
+docker start CONTAINER_NAME    启动容器
+docker attach CONTAINER_NAME    连接至容器
+
+######
+进入容器后安装所需要的环境
+将项目拷贝至容器内
+cp PROJECT_NAME CONTAINER_NAME:/xxxx(容器内的路径)
+######
+
+docker commit CONTAINER_NAME IMAGE_NAME    将运行的容器保存为镜像
+docker save IMAGE_NAME -o ZIP_NAME    将镜像压缩为压缩包
+
+docker load -i xxx.tar    镜像载入
+
+其他指令：
+docker rmi IMAGEID/REPOSITORY:TAG    删除镜像
+docker rm CONTAINER_NAME    删除容器
+docker ps (-a)    查看已有容器（-a表示正在运行的）
+docker tag IMAGE REPOSITOY:TAG    重命名镜像
+docker old_CONTAINER_NAME new_CONTAINER_NAME    重命名容器名
