@@ -24,11 +24,19 @@ docker images
 
 -创建容器并使用gpu
 ```language
-docker run -itd --gpus all  -itd --name CONTAINER_NAME IMAGE_NAME:TAG  /bin/bash
+docker run -itd --gpus all --name CONTAINER_NAME IMAGE_NAME:TAG  /bin/bash
 ```
 
-docker start CONTAINER_NAME    启动容器
-docker attach CONTAINER_NAME    连接至容器
+- 启动容器
+```language
+docker start CONTAINER_NAME
+```
+
+-连接至容器
+```language
+docker attach CONTAINER_NAME    
+```
+
 
 ######
 进入容器后安装所需要的环境
