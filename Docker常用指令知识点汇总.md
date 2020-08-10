@@ -37,12 +37,11 @@ docker start CONTAINER_NAME
 docker attach CONTAINER_NAME    
 ```
 
-
-######
-进入容器后安装所需要的环境
+***
+进入容器后安装所需要的环境pip，conda
 将项目拷贝至容器内
 cp PROJECT_NAME CONTAINER_NAME:/xxxx(容器内的路径)
-######
+***
 
 docker commit CONTAINER_NAME IMAGE_NAME    将运行的容器保存为镜像
 docker save IMAGE_NAME -o ZIP_NAME    将镜像压缩为压缩包
