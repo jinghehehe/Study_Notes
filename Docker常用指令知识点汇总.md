@@ -41,7 +41,7 @@ docker attach CONTAINER_NAME
 - 进入容器后安装所需要的环境pip，conda虚拟环境直接移植（未成功，理论可行）
 - 将项目拷贝至容器内
 ```language
-cp PROJECT_NAME CONTAINER_NAME:/xxxx(容器内的路径)
+docker cp PROJECT_NAME CONTAINER_NAME:/xxxx(容器内的路径)
 ```
 ***
 - 将运行的容器保存为镜像
