@@ -31,8 +31,8 @@ source script.sh
 
 参考链接：[exec](https://www.jianshu.com/p/ca012415cd5f)
 - exec与system的区别
-
-
+1. exec是直接用新的进程去代替原来的程序运行，运行完毕之后不回到原先的程序中去。
+2. 
 
 
 ### Shell 输入/输出重定向
