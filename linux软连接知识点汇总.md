@@ -14,7 +14,7 @@ ln -s /sbin/ifconfig /usr/bin （a源文件， b目标文件）
 ```
 - 删除软链接
 ```language
-
+rm –rf test（软链接名称）
 ```
 
 
