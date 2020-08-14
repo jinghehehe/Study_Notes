@@ -16,6 +16,12 @@ ln -s /sbin/ifconfig /usr/bin （a源文件， b目标文件）
 ```language
 rm –rf test（软链接名称）
 ```
+- 修改软链接
+```language
+ln –snf  [新的源文件或目录]  [目标文件或目录]
+```
+
+
 
 
 
