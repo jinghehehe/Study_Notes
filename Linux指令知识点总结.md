@@ -22,7 +22,7 @@ sh script.sh 或 bash script.sh
 source script.sh 
 . script.sh 
 ```
-
+- 上面第三种方式不启用新的shell，在当前shell中执行，设定的局部变量在执行完命令后仍然有效。bash 或 sh 或 shell script 执行时，另起一个子shell，其继承父shell的环境变量，其子shelll的变量执行完后不影响父shell。
 
 
 
