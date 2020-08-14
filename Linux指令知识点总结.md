@@ -68,6 +68,8 @@ $ command > /dev/null 2>&1
 
 ### 管道
 - 管道是一种通信机制，通常用于进程间的通信（也可通过socket进行网络通信），它表现出来的形式将前面每一个进程的输出（stdout）直接作为下一个进程的输入（stdin）。
-- 
+- 管道命令使用|作为界定符号，仅能处理standard output,对于standard error output会予以忽略。
+less,more,head,tail...都是可以接受standard input的命令，所以他们是管道命令
+ls,cp,mv并不会接受standard input的命令，所以他们就不是管道命令了。
 
 
