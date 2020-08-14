@@ -66,6 +66,6 @@ $ command > /dev/null
 $ command > /dev/null 2>&1
 ```
 
-
+管道：
 
 
