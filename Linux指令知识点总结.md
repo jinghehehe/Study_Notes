@@ -76,3 +76,9 @@ $ command > /dev/null 2>&1
 1. 匿名管道
 最常见的就是 | ，
 2. 命名管道
+使用mkfifo或mknod命令来创建一个命名管道，这跟创建一个文件没有什么区别
+```language
+mkfifo pipe
+```
+
+
