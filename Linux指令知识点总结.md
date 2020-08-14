@@ -32,7 +32,7 @@ source script.sh
 参考链接：[exec](https://www.jianshu.com/p/ca012415cd5f)
 - exec与system的区别
 1. exec是直接用新的进程去代替原来的程序运行，运行完毕之后不回到原先的程序中去。
-2. 
+2. system是调用shell执行你的命令，system=fork+exec+waitpid,执行完毕之后，回到原先的程序中去。继续执行下面的部分。
 
 
 ### Shell 输入/输出重定向
