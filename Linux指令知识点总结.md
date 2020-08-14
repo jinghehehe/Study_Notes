@@ -8,4 +8,7 @@
 
 
 ### Shell 输入/输出重定向
-
+输出重定向是大于号(>)，输入重定向是小于号(<)。
+|column1|column2|
+|-|-|
+|content1|content2|
