@@ -9,7 +9,7 @@
 ```
 
 ### shell脚本执行方式
-- 利用小数点来执行
+- 利用./来执行
 ```language
 ./script.sh  
 ```
@@ -17,10 +17,12 @@
 ```language
 sh script.sh 或 bash script.sh 
 ```
-- 利用source来执行
+- 利用source或. 来执行
 ```language
 source script.sh 
+. script.sh 
 ```
+
 
 
 
