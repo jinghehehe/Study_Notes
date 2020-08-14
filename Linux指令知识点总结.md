@@ -13,8 +13,8 @@
 |-|-|
 |command > file	| 将输出重定向到 file。|
 |command < file	|将输入重定向到 file。|
-|command > file	| 将输出重定向到 file。|
-|command > file	| 将输出重定向到 file。|
-|command > file	| 将输出重定向到 file。|
+|command >> file |将输出以追加的方式重定向到 file。|
+|n > file	|将文件描述符为 n 的文件重定向到 file。|
+|n >> file	|将文件描述符为 n 的文件以追加的方式重定向到 file。|
 |command > file	| 将输出重定向到 file。|
 |command > file	| 将输出重定向到 file。|
