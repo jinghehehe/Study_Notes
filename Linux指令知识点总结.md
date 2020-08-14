@@ -4,4 +4,8 @@
 
 ### shell脚本中的 exec 命令
 - exec 是 bash 的内置命令，shell 的内件命令exec执行命令时，不启用新的shell进程。
-- 
+
+
+
+### Shell 输入/输出重定向
+
