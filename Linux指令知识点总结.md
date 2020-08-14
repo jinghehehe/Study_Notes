@@ -13,7 +13,12 @@
 ```language
 ./script.sh  
 ```
-- 
+- 利用bash(sh)来执行脚本
+```language
+sh script.sh 或 bash script.sh 
+```
+
+
 
 
 
