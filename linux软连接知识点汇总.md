@@ -21,6 +21,12 @@ rm –rf test（软链接名称）
 ln –snf  [新的源文件或目录]  [目标文件或目录]
 ```
 
+- 查看某文件的node值
+```language
+ls -i a（查看a文件的node值）
+```
+
+
 
 
 
