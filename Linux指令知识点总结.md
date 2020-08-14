@@ -79,6 +79,8 @@ $ command > /dev/null 2>&1
 使用mkfifo或mknod命令来创建一个命名管道，这跟创建一个文件没有什么区别
 ```language
 mkfifo pipe
+echo xxxxxxxxxxxxxx > pipe 
+cat pipe 
 ```
 
 
