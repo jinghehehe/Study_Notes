@@ -8,6 +8,15 @@
 #！/bin/bash 
 ```
 
+### shell脚本执行方式
+- 利用小数点来执行
+```language
+./script.sh  
+```
+- 
+
+
+
 ### shell脚本中的 exec 命令
 - exec 是 bash 的内置命令，shell 的内件命令exec执行命令时，不启用新的shell进程。
 
