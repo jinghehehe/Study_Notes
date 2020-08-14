@@ -19,7 +19,7 @@ sh script.sh 或 bash script.sh
 ```
 - 利用source来执行
 ```language
-
+source script.sh 
 ```
 
 
