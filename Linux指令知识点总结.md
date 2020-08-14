@@ -11,4 +11,10 @@
 输出重定向是大于号(>)，输入重定向是小于号(<)。
 |命令|说明|
 |-|-|
-|content1|content2|
+|command > file	| 将输出重定向到 file。|
+|command < file	|将输入重定向到 file。|
+|command > file	| 将输出重定向到 file。|
+|command > file	| 将输出重定向到 file。|
+|command > file	| 将输出重定向到 file。|
+|command > file	| 将输出重定向到 file。|
+|command > file	| 将输出重定向到 file。|
