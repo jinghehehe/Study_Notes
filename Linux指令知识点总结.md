@@ -72,4 +72,6 @@ $ command > /dev/null 2>&1
 - less,more,head,tail...都是可以接受standard input的命令，所以他们是管道命令
 - ls,cp,mv并不会接受standard input的命令，所以他们就不是管道命令了。
 
+管道本身并不占用磁盘或者其他外部存储的空间。在Linux的实现上，它占用的是内存空间。所以，Linux上的管道就是一个操作方式为文件的内存缓冲区。
+1. 
 
