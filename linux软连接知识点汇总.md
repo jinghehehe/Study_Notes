@@ -26,7 +26,7 @@ ln –snf  [新的源文件或目录]  [目标文件或目录]
 ls -i a（查看a文件的node值）
 ```
 
-样例查看
+样例查看：[http://ivo-wang.github.io/2018/09/21/%E4%B8%80%E6%96%87%E7%9C%8B%E6%87%82linux%E8%BD%AF%E9%93%BE%E6%8E%A5%E4%B8%8E%E7%A1%AC%E9%93%BE%E6%8E%A5/](硬/软链接的样例讲解)
 
 
 
