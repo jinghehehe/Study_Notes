@@ -84,13 +84,7 @@
 	[linux后台运行&和nohup操作说明](https://blog.csdn.net/liuyanfeier/article/details/62422742)
 
 
-- shell脚本从windows转到linux易出现权限和文件格式转换问题
-其中文件转换
-```language
-vi xxx.sh
-set ff=unix
-:wq
-```
+
 
 
 	
