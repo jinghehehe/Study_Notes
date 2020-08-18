@@ -87,7 +87,9 @@
 - shell脚本从windows转到linux易出现权限和文件格式转换问题
 其中文件转换
 ```language
-
+vi xxx.sh
+set ff=unix
+:wq
 ```
 
 
