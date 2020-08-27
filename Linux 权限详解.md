@@ -38,6 +38,9 @@ rx = 4 +1 = 5
 chmod 777 file  (等价于  chmod u=rwx,g=rwx,o=rwx file 或  chmod a=rwx file)
 ```
 - 设置拥有者可读写，其他人不可读写执行
+```language
+chmod 600 file (等价于  chmod u=rw,g=---,o=--- file 或 chmod u=rw,go-rwx file )
+```
 
 
 
