@@ -5,5 +5,14 @@
 - Linux上通常使用chmod命令对文件的权限进行设置和更改。
 
 - 常用chmod指令
+- 设置所有用户可读取文件 a.conf
+```language
+chmod ugo+r a.conf 
+或 
+chmod a+r  a.conf
+```
+
+- 
+
 
 
