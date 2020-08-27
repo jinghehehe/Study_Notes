@@ -92,6 +92,10 @@ docker save image_name -o xx.tar
 ```
 
 - 容器保存镜像
-- 
+```language
+docker commit container_name image_name 
+```
+
+
 
 
