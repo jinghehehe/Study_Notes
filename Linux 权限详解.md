@@ -42,6 +42,8 @@ chmod 777 file  (等价于  chmod u=rwx,g=rwx,o=rwx file 或  chmod a=rwx file)
 chmod 600 file (等价于  chmod u=rw,g=---,o=--- file 或 chmod u=rw,go-rwx file )
 ```
 
+参考文献：[Linux权限解析](https://blog.csdn.net/u013197629/article/details/73608613)
+
 
 
 
