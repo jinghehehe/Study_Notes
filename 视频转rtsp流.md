@@ -28,7 +28,17 @@ Format rtp
 </Stream>
 ```
 
-4. 
+4. 命令行运行
+```language
+./ffserver -f server.cfg
+```
+5. vlc播放
+```language
+rtsp://ip/test.mp4
+```
+
+
+
 
 
 
