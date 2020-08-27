@@ -86,4 +86,12 @@ docker tag IMAGE REPOSITOY:TAG
 docker old_CONTAINER_NAME new_CONTAINER_NAME   
 ```
 
+- 打包压缩镜像
+```language
+docker save image_name -o xx.tar 
+```
+
+- 容器保存镜像
 - 
+
+
