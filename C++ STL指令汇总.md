@@ -3,7 +3,8 @@
 ***
 ## 高级c++头文件
 ```language
-
+#include<bits/stdc++.h>
+using namespace std;
 ```
 
 ***
