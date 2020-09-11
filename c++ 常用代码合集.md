@@ -62,7 +62,8 @@ mapStudent.insert(pair<int, string>(1, "student_one"));
 //插入元素2，与第一种的区别是重复键值会覆盖。
 mapStudent[1] = "student_one";
 ```
-
+## priority_queue常用语法
+priority_queue <int,vector<int>,greater<int> > q;
 
 
 
