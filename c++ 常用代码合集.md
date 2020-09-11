@@ -64,6 +64,11 @@ mapStudent[1] = "student_one";
 ```
 ## priority_queue常用语法
 priority_queue <int,vector<int>,greater<int> > q;
+```language
+q.push(k);//在q的末尾插入k
+q.pop();//删掉q的第一个元素
+q.top();//返回q的第一个元素
+```
 
 
 
