@@ -14,7 +14,9 @@ STL容器分为多种，如序列容器，排序容器，哈希容器。
 - 容器特性：顺序，xx
 - 增加函数
 ```language
-res.push_back()
+//尾部添加
+res.push_back(x)
+
 ```
 
 
