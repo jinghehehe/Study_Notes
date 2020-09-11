@@ -11,5 +11,11 @@ STL容器分为多种，如序列容器，排序容器，哈希容器。
 - 哈希容器：unordered_set 哈希集合、unordered_multiset 哈希多重集合、unordered_map 哈希映射以及 unordered_multimap 哈希多重映射
 
 ## vector常用语法
-- 容器特性：顺序
+- 容器特性：顺序，xx
+- 增加函数
+```language
+res.push_back()
+```
+
+
 
