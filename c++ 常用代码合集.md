@@ -52,7 +52,16 @@ res.count(x)
 s.find(x)) != s.end()
 ```
 ## unordered_set常用语法
-- unordered_set特性
+- unordered_set特性：底层哈希
+
+## map常用语法
+```language
+map<int, string> mapStudent;  
+//插入元素
+
+```
+
+
 
 
 
