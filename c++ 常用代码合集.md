@@ -49,7 +49,7 @@ res.count(x)
 ```
 - 查找是否有元素
 ```language
-s.find()) != s.end()
+s.find(x)) != s.end()
 ```
 
 
