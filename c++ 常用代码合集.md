@@ -21,6 +21,9 @@ res.insert(res.begin() + 1, 3)
 //比insert效率更高
 res.emplace(demo1.begin(), 3);
 ```
+- 删除函数
+```language
+//尾部删除
+res.pop_back()
 
-
-
+```
