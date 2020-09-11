@@ -41,3 +41,5 @@ sort(piles.begin(), piles.end(),greater<int>());
 ```language
 vector<vector<int> > obj(N, vector<int>(M))
 ```
+## set常用用法
+set特性：
