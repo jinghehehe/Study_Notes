@@ -16,7 +16,9 @@ STL容器分为多种，如序列容器，排序容器，哈希容器。
 ```language
 //尾部添加
 res.push_back(x)
+//头部添加
 res.insert(res.begin() + 1, 3)
+//比insert效率更高
 res.emplace(demo1.begin(), 3);
 ```
 
