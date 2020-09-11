@@ -59,7 +59,7 @@ s.find(x)) != s.end()
 map<int, string> mapStudent;  
 //插入元素
 mapStudent.insert(pair<int, string>(1, "student_one"));
-//插入元素2
+//插入元素2，与第一种的区别是重复键值会覆盖。
 mapStudent[1] = "student_one";
 ```
 
