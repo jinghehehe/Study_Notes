@@ -63,7 +63,8 @@ mapStudent.insert(pair<int, string>(1, "student_one"));
 mapStudent[1] = "student_one";
 ```
 ## priority_queue常用语法
-priority_queue <int,vector<int>,greater<int> > q;
+priority_queue <int,vector<int>,less<int> >q;//从大到小
+priority_queue <int,vector<int>,greater<int> > q;//从小到大
 ```language
 q.push(k);//在q的末尾插入k
 q.pop();//删掉q的第一个元素
