@@ -42,4 +42,9 @@ sort(piles.begin(), piles.end(),greater<int>());
 vector<vector<int> > obj(N, vector<int>(M))
 ```
 ## set常用用法
-set特性：
+set特性：底层实现红黑树
+- 元素数量查询
+```language
+
+```
+
