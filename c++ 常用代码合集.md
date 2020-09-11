@@ -51,6 +51,9 @@ res.count(x)
 ```language
 s.find(x)) != s.end()
 ```
+## unordered_set常用语法
+- unordered_set特性
+
 
 
 
