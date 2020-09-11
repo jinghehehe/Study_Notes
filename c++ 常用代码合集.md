@@ -28,6 +28,7 @@ res.pop_back()
 //删除指定位置元素
 res.erase(demo.begin() + 1)
 ```
+- 
 - 数组初始化&赋值
 ```language
 vector<vector<int> > obj(N, vector<int>(M))
