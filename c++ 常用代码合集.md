@@ -58,7 +58,9 @@ s.find(x)) != s.end()
 ```language
 map<int, string> mapStudent;  
 //插入元素
-
+mapStudent.insert(pair<int, string>(1, "student_one"));
+//插入元素2
+mapStudent[1] = "student_one";
 ```
 
 
