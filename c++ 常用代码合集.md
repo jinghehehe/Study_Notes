@@ -45,6 +45,12 @@ vector<vector<int> > obj(N, vector<int>(M))
 set特性：底层实现红黑树
 - 元素数量查询
 ```language
-
+res.count(x)
 ```
+- 查找是否有元素
+```language
+s.find()) != s.end()
+```
+
+
 
