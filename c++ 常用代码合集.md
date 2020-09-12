@@ -229,7 +229,12 @@ return 1;
 |to_string(val)|把val转换成string|
 |stoi(s)|把string转换成int|
 |atoi(s)|把char转换成int|
-
+```language
+// char[]转换为string 
+char st[] = "hello";   
+// 直接赋值实现 
+string st1 = st
+```
 
 ## 定义数值
 
