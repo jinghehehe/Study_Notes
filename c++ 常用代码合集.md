@@ -118,7 +118,7 @@ string s3=s.substr(4);//efg
 str.insert(6,str2); 
 
 str.erase (10,8);       //            ^^^^^^^^
-  //直接指定删除的字符串位置第十个后面的8个字符
+//直接指定删除的字符串位置第十个后面的8个字符
 std::cout << str << '\n';
                             // "This is an sentence."
 str.erase (str.begin()+9);//           ^
