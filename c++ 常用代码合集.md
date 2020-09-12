@@ -5,6 +5,7 @@
 using namespace std;
 ios::sync_with_stdio(false);//关掉scanf和cin的同步，提升效率
 while(scanf("%d%d",&n,&m)!=EOF)
+(a∗b)%c=((a%c)∗(b%c))%c
 ```
 ## STL模板
 STL容器分为多种，如序列容器，排序容器，哈希容器。
