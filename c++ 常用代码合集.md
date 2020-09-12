@@ -103,6 +103,9 @@ strcpy( str3, str1);
 strcat( str1, str2);
 //比较
 strcmp(s1, s2);
+
+//str1的第6个字符以及后面的4个字符和str2的第4个字符以及后面的4个字符比较
+if (str1.compare(6,5,str2,4,5) == 0)
 //返回一个指针，指向字符串第一次出现ch的位置
 strchr(s1, ch);
 //返回一个指针，指向字符串第一次出现s2的位
