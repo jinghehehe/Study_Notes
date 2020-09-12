@@ -133,6 +133,10 @@ str.erase (str.begin()+5, str.end()-9);
 str.replace(9,5,str2); 
 //迭代器
 str.replace(str.begin(),str.end()-3,str3);  
+
+//直接把base赋值给str
+str.assign(base);
+
 ```
 
 ## 重载运算符示例
