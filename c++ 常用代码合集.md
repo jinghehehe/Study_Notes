@@ -3,6 +3,8 @@
 ```language
 #include<bits/stdc++.h>
 using namespace std;
+
+while(scanf("%d%d",&n,&m)!=EOF)
 ```
 ## STL模板
 STL容器分为多种，如序列容器，排序容器，哈希容器。
