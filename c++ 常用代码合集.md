@@ -7,6 +7,7 @@ ios::sync_with_stdio(false);//关掉scanf和cin的同步，提升效率
 while(scanf("%d%d",&n,&m)!=EOF)
 const int mod = 1e9 + 7;
 (a∗b)%c=((a%c)∗(b%c))%c
+map<int, unordered_map<int, array<vector<int>, 2>>> actions
 ```
 ## STL模板
 STL容器分为多种，如序列容器，排序容器，哈希容器。
