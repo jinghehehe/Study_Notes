@@ -228,6 +228,7 @@ return 1;
 |-|-|
 |to_string(val)|把val转换成string|
 |stoi(s)|把string转换成int|
+|atoi(s)|把char转换成int|
 
 
 ## 定义数值
