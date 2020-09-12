@@ -222,6 +222,9 @@ return 1;
 }
 ```
 ## 元素类型转换
+|string和数值转换|column2|
+|-|-|
+|content1|content2|content3|
 
 ## 定义数值
 
