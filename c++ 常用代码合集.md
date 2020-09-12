@@ -136,7 +136,11 @@ str.replace(str.begin(),str.end()-3,str3);
 
 //直接把base赋值给str
 str.assign(base);
-
+    std::size_t found = str.find(str2);
+    if (found!=std::string::npos)
+    std::cout << "first 'needle' found at: " << found << '\n';
+    //在str当中，从第found+1的位置开始查找参数字符串的前6个字符
+    found=str.find("needles are small",found+1,6);
 ```
 
 ## 重载运算符示例
