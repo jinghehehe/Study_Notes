@@ -107,6 +107,14 @@ strcmp(s1, s2);
 strchr(s1, ch);
 //返回一个指针，指向字符串第一次出现s2的位
 strstr(s1, s2);
+```language
+string s="abcdefg";
+s.substr(pos1,n)返回字符串位置为pos1后面的n个字符组成的串
+string s2=s.substr(1,5);//bcdef
+
+    //s.substr(pos)//得到一个pos到结尾的串
+    string s3=s.substr(4);//efg
+```
 
 ## 重载运算符示例
 ```language
