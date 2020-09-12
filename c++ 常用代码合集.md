@@ -113,6 +113,9 @@ string s="abcdefg";
 string s2=s.substr(1,5);//bcdef
 //s.substr(pos)//得到一个pos到结尾的串
 string s3=s.substr(4);//efg
+
+//s.insert(pos,str)//在s的pos位置插入str
+str.insert(6,str2); 
 ```
 
 ## 重载运算符示例
