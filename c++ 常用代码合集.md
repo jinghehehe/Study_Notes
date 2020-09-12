@@ -96,8 +96,10 @@ s.push(x)
 s.pop()
 s.top()
 ```
+## string语法
 
-//重载运算符示例
+
+## //重载运算符示例
 ```language
 看下面这个简单的示例：
 #include <iostream>
