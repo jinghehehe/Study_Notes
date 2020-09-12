@@ -234,6 +234,18 @@ return 1;
 char st[] = "hello";   
 // 直接赋值实现 
 string st1 = st
+
+应该这样用： 
+char c[20]; 
+string s="1234"; 
+strcpy(c,s.c_str()); 
+这样才不会出错，c_str()返回的是一个临时指针，不能对其进行操作
+ 
+再举个例子
+c_str() 以 char* 形式传回 string 内含字符串
+如果一个函数要求char*参数，可以使用c_str()方法： 
+string s = "Hello World!";
+printf("%s", s.c_str()); //输出 "Hello World!"
 ```
 
 ## 定义数值
