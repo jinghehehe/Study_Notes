@@ -224,7 +224,8 @@ return 1;
 ## 元素类型转换
 |string和数值转换|column2|
 |-|-|
-|content1|content2|content3|
+|to_string(val)|把val转换成string|
+
 
 ## 定义数值
 
