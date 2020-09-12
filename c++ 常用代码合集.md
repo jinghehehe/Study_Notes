@@ -105,7 +105,8 @@ strcat( str1, str2);
 strcmp(s1, s2);
 //返回一个指针，指向字符串第一次出现ch的位置
 strchr(s1, ch);
-
+//返回一个指针，指向字符串第一次出现s2的位
+strstr(s1, s2);
 
 ## 重载运算符示例
 ```language
