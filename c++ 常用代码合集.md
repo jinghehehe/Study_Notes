@@ -116,6 +116,18 @@ string s3=s.substr(4);//efg
 
 //s.insert(pos,str)//在s的pos位置插入str
 str.insert(6,str2); 
+
+str.erase (10,8);       //            ^^^^^^^^
+  //直接指定删除的字符串位置第十个后面的8个字符
+std::cout << str << '\n';
+                            // "This is an sentence."
+str.erase (str.begin()+9);//           ^
+//删除迭代器指向的字符
+std::cout << str << '\n';
+                            // "This is a sentence."
+                            //       ^^^^^
+str.erase (str.begin()+5, str.end()-9);
+//删除迭代器范围的字符
 ```
 
 ## 重载运算符示例
