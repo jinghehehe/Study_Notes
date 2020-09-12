@@ -88,6 +88,7 @@ dq.push_back(x);
 dq.pop_front();
 dq.pop_back();
 ```
+## stack语法
 
 
 
