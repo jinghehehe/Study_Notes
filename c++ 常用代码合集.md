@@ -89,7 +89,7 @@ dq.pop_front();
 dq.pop_back();
 ```
 ## stack语法
-
+stack、queue，priority_queue是适配器，因为是对
 
 
 
