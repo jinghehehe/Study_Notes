@@ -24,6 +24,9 @@ res.push_back(x)
 res.insert(res.begin() + 1, 3)
 //比insert效率更高
 res.emplace(demo1.begin(), 3);
+//数组拷贝
+result.assign(res.begin(),res.begin()+depth);
+result.assign(n,num);
 ```
 - 删除函数
 ```language
