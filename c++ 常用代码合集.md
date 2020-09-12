@@ -227,7 +227,7 @@ return 1;
 |string和数值转换|column2|
 |-|-|
 |to_string(val)|把val转换成string|
-|to_string(val)|把val转换成string|
+|stoi(s)|把string转换成int|
 
 
 ## 定义数值
