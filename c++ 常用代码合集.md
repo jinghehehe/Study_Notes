@@ -256,6 +256,31 @@ printf("%s", s.c_str()); //输出 "Hello World!"
 ## 定义数值
 
 ## 链表结构
+```language
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode(int x) : val(x), next(NULL) {}
+ * };
+ */
+class Solution {
+public:
+    ListNode* reverseList(ListNode* head) {
+        ListNode* cur = NULL, *pre = head;
+        while (pre != NULL) {
+            ListNode* t = pre->next;
+            pre->next = cur;
+            cur = pre;
+            pre = t;
+        }
+        return cur;
+    }
+};
+
+
+```
 
 ## 树结构
 ```language
