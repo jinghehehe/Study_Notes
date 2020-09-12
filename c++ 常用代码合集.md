@@ -142,6 +142,11 @@ std::cout << "first 'needle' found at: " << found << '\n';
 //在str当中，从第found+1的位置开始查找参数字符串的前6个字符
 found=str.find("needles are small",found+1,6);
 //rfind从后往前找
+
+find_first_of(args) 查找args中任何一个字符第一次出现的位置
+find_last_of(args) 最后一个出现的位置
+find_fist_not_of(args) 查找第一个不在args中的字符
+find_last_not_of 查找最后一个不在args中出现的字符
 ```
 
 ## 重载运算符示例
