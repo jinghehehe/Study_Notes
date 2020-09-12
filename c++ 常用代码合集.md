@@ -128,6 +128,11 @@ std::cout << str << '\n';
                             //       ^^^^^
 str.erase (str.begin()+5, str.end()-9);
 //删除迭代器范围的字符
+
+//第9个字符以及后面的4个字符被str2代替
+str.replace(9,5,str2); 
+//
+str.replace(str.begin(),str.end()-3,str3);  
 ```
 
 ## 重载运算符示例
