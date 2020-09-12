@@ -254,7 +254,17 @@ string s = "Hello World!";
 printf("%s", s.c_str()); //输出 "Hello World!"
 ```
 
-## 定义数值
+## 排序
+```language
+// Ascending order by second column
+sort(m.begin(), m.end(), [](const vector<int> &a, const vector<int> &b) { return a[1] < b[1]; } );
+
+bool cmp(const vector<int> &a, const vector<int> &b) {
+    return a[0] > b[0];
+}
+sort(m.begin(), m.end(), cmp);
+```
+
 
 ## 链表结构
 ```language
