@@ -265,6 +265,42 @@ printf("%s", s.c_str()); //输出 "Hello World!"
  *     ListNode(int x) : val(x), next(NULL) {}
  * };
  */
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode(int x) : val(x), next(NULL) {}
+ * };
+ */
+class Solution {
+public:
+    ListNode* createList(int n,vector<int> res)
+	{
+		ListNode* phead=new ListNode(res[0]);
+        ListNode* head = phead; //不破坏头指针
+		for(int i=1;i<n;i++){
+			phead->next=new ListNode(res[i]);
+
+			phead=phead->next;
+		}
+        return head;
+	}
+    ListNode* sortList(ListNode* head) {
+        vector<int> res;
+        if(head == NULL) return NULL;
+        while(head!=NULL){
+            res.push_back(head->val);
+            head = head->next;
+           // cout << res.back();
+        }
+        sort(res.begin(),res.end());
+        int len = res.size();
+        ListNode* phead = createList(len,res);
+        return phead;
+    }
+};
+
 class Solution {
 public:
     ListNode* reverseList(ListNode* head) {
