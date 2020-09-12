@@ -255,6 +255,15 @@ printf("%s", s.c_str()); //输出 "Hello World!"
 ## 链表结构
 
 ## 树结构
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+ * };
+ */
 class Solution {
 public:
     vector<double> averageOfLevels(TreeNode* root) {
@@ -276,7 +285,17 @@ public:
         return result;
     }
 };
-
+//树的深度
+int  GetBTreeDepth( BTreeNode_t *pRoot)
+{
+    if( pRoot == NULL )
+        return 0;
+ 
+    int lDepth = GetBTreeDepth( pRoot->m_pLeft);
+    int rDepth = GetBTreeDepth( pRoot->m_pRight);
+ 
+    return ((( lDepth > rDepth )? lDepth: rDepth) + 1 );        
+}
 
 ## 并查集代码
 
