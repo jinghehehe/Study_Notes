@@ -90,6 +90,10 @@ dq.pop_back();
 ```
 ## stack语法
 stack、queue，priority_queue是适配器，因为是对容器的再封装
+```language
+s.push(x)
+s.pop()
+```
 
 
 
