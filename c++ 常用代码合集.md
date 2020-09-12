@@ -70,10 +70,15 @@ q.push(k);//在q的末尾插入k
 q.pop();//删掉q的第一个元素
 q.top();//返回q的第一个元素
 ```
-## queue常用用法
+## queue && de常用用法
 ```language
 queue<int> q;
-
+q.push(x)
+q.pop();
+//队头元素
+q.front();
+//队尾元素
+q.back();
 ```
 
 
