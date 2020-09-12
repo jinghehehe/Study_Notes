@@ -3,7 +3,7 @@
 ```language
 #include<bits/stdc++.h>
 using namespace std;
-
+ios::sync_with_stdio(false);//关掉scanf和cin的
 while(scanf("%d%d",&n,&m)!=EOF)
 ```
 ## STL模板
