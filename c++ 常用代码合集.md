@@ -255,6 +255,7 @@ printf("%s", s.c_str()); //输出 "Hello World!"
 ## 链表结构
 
 ## 树结构
+```language
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -296,6 +297,9 @@ int  GetBTreeDepth( BTreeNode_t *pRoot)
  
     return ((( lDepth > rDepth )? lDepth: rDepth) + 1 );        
 }
+```
+
+
 
 ## 并查集代码
 
