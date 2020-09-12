@@ -101,6 +101,11 @@ s.top()
 strcpy( str3, str1);
 //连接
 strcat( str1, str2);
+//比较
+strcmp(s1, s2);
+//返回一个指针，指向字符串第一次出现ch的位置
+strchr(s1, ch);
+
 
 ## 重载运算符示例
 ```language
