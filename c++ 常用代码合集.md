@@ -70,7 +70,7 @@ q.push(k);//在q的末尾插入k
 q.pop();//删掉q的第一个元素
 q.top();//返回q的第一个元素
 ```
-## queue && de常用用法
+## queue && deque常用用法
 ```language
 queue<int> q;
 q.push(x)
@@ -79,6 +79,12 @@ q.pop();
 q.front();
 //队尾元素
 q.back();
+```
+deque是双端队列
+```language
+deque<int> dq;
+dq.push_front(x);
+dq.pus
 ```
 
 
