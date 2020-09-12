@@ -97,9 +97,9 @@ s.pop()
 s.top()
 ```
 ## string语法
-//复制
+//复制，也可直接赋值
 strcpy( str3, str1);
-//连接
+//连接，可
 strcat( str1, str2);
 //比较
 strcmp(s1, s2);
