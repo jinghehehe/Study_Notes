@@ -89,7 +89,8 @@ dq.pop_front();
 dq.pop_back();
 ```
 ## stack语法
-stack、queue，priority_queue是适配器，因为是对
+stack、queue，priority_queue是适配器，因为是对容器的再封装
+
 
 
 
