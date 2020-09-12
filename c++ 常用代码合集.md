@@ -84,7 +84,9 @@ deque是双端队列
 ```language
 deque<int> dq;
 dq.push_front(x);
-dq.pus
+dq.push_back(x);
+dq.pop_front();
+dq.pop_back();
 ```
 
 
