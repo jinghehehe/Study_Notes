@@ -97,9 +97,12 @@ s.pop()
 s.top()
 ```
 ## string语法
+//复制
+strcpy( str3, str1);
+//连接
+strcat( str1, str2);
 
-
-## //重载运算符示例
+## 重载运算符示例
 ```language
 看下面这个简单的示例：
 #include <iostream>
