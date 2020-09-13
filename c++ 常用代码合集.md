@@ -18,6 +18,8 @@ STL容器分为多种，如序列容器，排序容器，哈希容器。
 
 ## vector常用语法
 - 容器特性：顺序，xx
+- //反转
+- reverse(str.begin(),str.end());
 - 增加函数
 ```language
 //尾部添加
