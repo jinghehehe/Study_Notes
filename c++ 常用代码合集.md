@@ -1,4 +1,5 @@
 # c++ 常用代码合集
+Tools -> Complier Options -> Settings -> Code Generation -> Language Standard(-std) -> ISO c++11
 ## 高级c++头文件
 ```language
 #include<bits/stdc++.h>
