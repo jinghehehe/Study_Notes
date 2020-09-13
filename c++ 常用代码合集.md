@@ -168,6 +168,10 @@ stoi(s,0,16)：将16进制字符串s转换成10进制数并返回
 ## list用法
 ```language
 push_back() 和push_front()
+pop_back和pop_front()，但元素不能为空
+assign()：具体和vector中的操作类似，也是有两种情况，第一种是：l1.assign(n,val)将 l1中元素变为n个T(val）。第二种情况是：l1.assign(l2.begin(),l2.end())将l2中的从l2.begin()到l2.end()之间的数值赋值给l1。
+
+reverse
 ```
 
 
