@@ -158,6 +158,9 @@ find_first_of(args) 查找args中任何一个字符第一次出现的位置
 find_last_of(args) 最后一个出现的位置
 find_fist_not_of(args) 查找第一个不在args中的字符
 find_last_not_of 查找最后一个不在args中出现的字符
+
+printf("%02X",n)：将10进制数n输出成16进制数，其中10~15用大写字母A~F表示，输出的16进制数不足两位在高位补0
+stoi(s,0,16)：将16进制字符串s转换成10进制数并返回
 ```
 
 ## 重载运算符示例
