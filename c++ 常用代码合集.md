@@ -165,6 +165,7 @@ pos = find_if(intVec.begin(),intVec.end(),
 printf("%02X",n)：将10进制数n输出成16进制数，其中10~15用大写字母A~F表示，输出的16进制数不足两位在高位补0
 stoi(s,0,16)：将16进制字符串s转换成10进制数并返回
 ```
+## list用法
 
 ## 重载运算符示例
 ```language
