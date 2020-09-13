@@ -185,6 +185,11 @@ l1.erase(l1.begin()); 将l1的第一个元素删除。
 
 l1.erase(l1.begin(),l1.end()); 将l1的从begin()到end()之间的元素删除。
 ```
+## array用法
+```language
+array<double,100> data
+values.fill(3.1415926);
+```
 
 
 ## 重载运算符示例
