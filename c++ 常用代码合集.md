@@ -172,6 +172,16 @@ pop_back和pop_front()，但元素不能为空
 assign()：具体和vector中的操作类似，也是有两种情况，第一种是：l1.assign(n,val)将 l1中元素变为n个T(val）。第二种情况是：l1.assign(l2.begin(),l2.end())将l2中的从l2.begin()到l2.end()之间的数值赋值给l1。
 
 reverse
+merge()：合并两个链表并使之默认升序(也可改)，l1.merge(l2，greater<int>()); 调用结束后l2变为空，l1中元素包含原来l1 和 l2中的元素，并且排好序，升序。其实默认是升序，greater<int>()可以省略，另外greater<int>()是可以变的，也可以不按升序排列。
+
+1.insert(l1.begin(),100); 在l1的开始位置插入100。
+
+l1.insert(l1.begin(),2,200); 在l1的开始位置插入2个100。
+
+l1.insert(l1.begin(),l2.begin(),l2.end());在l1的开始位置插入l2的从开始到结束的所有位置的元素。
+l1.erase(l1.begin()); 将l1的第一个元素删除。
+
+l1.erase(l1.begin(),l1.end()); 将l1的从begin()到end()之间的元素删除。
 ```
 
 
