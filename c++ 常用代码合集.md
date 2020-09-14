@@ -467,6 +467,13 @@ strcpy(p,str.c_str());
 ```language
 
 ```
+- 特殊输入
+```language
+char st[50];
+scanf("%[^\n]",st);// \n作为字符串输入的结束符
+scanf("%[a-z A-Z0-9]",str); //表示只匹配输入是大小写字母和数字，遇到非数字和字母时输入结束。
+```
+
 
 
 
