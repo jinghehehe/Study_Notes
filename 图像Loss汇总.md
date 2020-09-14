@@ -34,3 +34,4 @@ L2范数损失函数，也被称为最小平方误差（LSE）。它是把目标
 
 范数总结/损失总结
 [1](https://zhuanlan.zhihu.com/p/129782115)
+[2](https://blog.csdn.net/colourful_sky/article/details/80684875)
