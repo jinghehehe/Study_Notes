@@ -463,7 +463,10 @@ char p[50];
 string str="I Love Ningbo!";
 strcpy(p,str.c_str());
 ```
-- 字符数组字符串类型转换为
+- 字符数组转换为字符串类型
+```language
+
+```
 
 
 
