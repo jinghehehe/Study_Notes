@@ -440,9 +440,15 @@ int  GetBTreeDepth( BTreeNode_t *pRoot)
 
 ```
 
+## c++输入字符串（含空格）
+- getline()
+```language
+
+```
 
 
-## 并查集代码
+
+## 并查集代码（java）
 ```language
 class UF {
     // 连通分量个数
