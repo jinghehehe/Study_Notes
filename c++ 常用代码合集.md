@@ -443,8 +443,15 @@ int  GetBTreeDepth( BTreeNode_t *pRoot)
 ## c++输入字符串（含空格）
 - getline()
 ```language
+string st;
+getline(cin,st);
+```
+- cin.get，遇回车结束
+```language
 
 ```
+
+
 
 
 
