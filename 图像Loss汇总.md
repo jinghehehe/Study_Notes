@@ -1,6 +1,6 @@
 # 图像loss汇总
 ***
 目前loss主要有以下几种：
-1.针对图像的pixel2pixel的loss：L1,L2,SSIM
+1.针对图像的pixel2pixel的loss：L1,L2,SSIM，对以PSNR、SSIM为客观评价指标的问题贡献比较大。
 - 特点：L2损失相比与L1损失收敛速度更快，但是其缺点是容易受离存点的影响。smooth L1和L1-loss函数的区别在于，L1-loss在0点处导数不唯一，可能影响收敛。smooth L1的解决办法是在0点附近使用平方函数使得它更加平滑。
 ![16000487451.png](0)
