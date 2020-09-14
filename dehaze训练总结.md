@@ -7,3 +7,5 @@ Denight文件夹
 模型：
 pair_dehaze_syn 合成图片加att
 pair_dehaze_att 真实图片加xx
+pair_dehaze_back 真实图片+cyc10
+pair_dehaze 真实图片+cyc30
