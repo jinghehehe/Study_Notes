@@ -4,3 +4,5 @@ Denight文件夹
 数据集datasets
 训练测试data/aligned_dataset.py修改
 数据集训练集OTS_dehaze,测试机RZ,URHI，SOTS
+模型：
+pair_dehaze_syn hec
