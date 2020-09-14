@@ -1,2 +1,5 @@
 Denight文件夹
 测试模型pretrained_models
+训练模型checkpoints
+数据集datasets
+训练测试data/aligned_dataset.py
