@@ -5,4 +5,5 @@ Denight文件夹
 训练测试data/aligned_dataset.py修改
 数据集训练集OTS_dehaze,测试机RZ,URHI，SOTS
 模型：
-pair_dehaze_syn hec
+pair_dehaze_syn 合成图片加att
+pair_dehaze_att 真实图片加xx
