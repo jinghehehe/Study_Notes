@@ -45,6 +45,6 @@ L2范数损失函数，也被称为最小平方误差（LSE）。它是把目标
 1：多类问题考虑到样本不平衡问题
 trian test split时候采用各个类别内部按比例分割的思路（StratifiedShuffleSplit）
 2:数据预处理，
-2.1：清理重复数据，使用dHash：差异值哈希。精确度较高，且速度也非常快来判断，参考博客这里写链接内容
+2.1：清理重复数据，使用dHash：差异值哈希。精确度较高，且速度也非常快来判断，https://www.jianshu.com/p/193f0089b7a2
 后面数据增广，测试数据增广方案差不多前提下，这一步数据清洗能够提高1-2个百分点，很重要！！！
 2.2：数据增强不只是有faster rcnn一种截取方式，还有(FCIS) https://github.com/msracver/FCIS (CAM) http://cnnlocalization.csail.mit.edu/
