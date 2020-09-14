@@ -451,7 +451,12 @@ getline(cin,st);
 char st[50];
 cin.get(st,50);
 ```
-- cin.getline
+- cin.getline，getline将换行符丢弃，而get()将换行符保留在输入序列里
+```language
+
+```
+
+
 
 
 
