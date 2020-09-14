@@ -453,8 +453,19 @@ cin.get(st,50);
 ```
 - cin.getline，getline将换行符丢弃，而get()将换行符保留在输入序列里
 ```language
-
+char st[50];
+cin.getline(a,50);
 ```
+
+- 字符串类型转换为字符数组
+```language
+char p[50];
+string str="I Love Ningbo!";
+strcpy(p,str.c_str());
+```
+- 字符数组字符串类型转换为
+
+
 
 
 
