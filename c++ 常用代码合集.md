@@ -465,7 +465,9 @@ strcpy(p,str.c_str());
 ```
 - 字符数组转换为字符串类型
 ```language
-
+char ch [] = "ABCDEFG";
+string str;
+str = ch;//在原有基础上添加可以用str += ch;
 ```
 - 特殊输入
 ```language
