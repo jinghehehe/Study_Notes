@@ -3,3 +3,4 @@ Denight文件夹
 训练模型checkpoints
 数据集datasets
 训练测试data/aligned_dataset.py修改
+数据集训练集OTS_dehaze,测试机RZ,URHI，SOTS
