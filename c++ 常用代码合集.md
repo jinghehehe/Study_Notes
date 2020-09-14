@@ -448,8 +448,10 @@ getline(cin,st);
 ```
 - cin.get，遇回车结束
 ```language
-
+char st[50];
+cin.get(st,50);
 ```
+- cin.getline
 
 
 
