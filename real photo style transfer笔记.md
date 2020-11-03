@@ -4,4 +4,4 @@
 ## 起源
 - "Deep Photo Style Transfer" CVPR 2017
 - [代码](https://github.com/luanfujun/deep-photo-styletransfer)
-- 复现较为复杂，但是本方向的起源
+- 复现较为复杂，但是是本方向的起源文章，模型主要是实现了将
