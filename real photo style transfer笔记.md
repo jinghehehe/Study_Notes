@@ -9,4 +9,7 @@
 - 另一个难点在于解决“溢出”问题，这里点名批评MRF+CNN的方法，它的缺点在于只寻找style image中与输入的patch最相似的patch，然后迁移过来，这样就导致了有些style patches会被重复使用，而有些没有被用到，导致结果很差。本文用gram+提前语义分割，结果较好。
 
 ## 进阶
-- FastPhotoStyle 
+- FastPhotoStyle "A Closed-form Solution to
+Photorealistic Image Stylization" ECCV 2018
+- NVIDIA提出，
+- 
