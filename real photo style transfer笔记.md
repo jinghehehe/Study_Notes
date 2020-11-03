@@ -24,5 +24,5 @@ Photorealistic Image Stylization" ECCV 2018
 - 预印
 - [代码(非官方)](https://github.com/mousecpn/Joint-Bilateral-Learning)
 
-- "Ultrafast Photorealistic Style Transfer via Neural Architecture Search" 
+- "Ultrafast Photorealistic Style Transfer via Neural Architecture Search" 2020AAAA
 - 
