@@ -20,8 +20,9 @@ Photorealistic Image Stylization" ECCV 2018
 - [代码](https://github.com/ClovaAI/WCT2)
 
 ## 发展
-- "Ultrafast Photorealistic Style Transfer via Neural Architecture Search" 2019
+- "Joint Bilateral Learning for Real-time Universal Photorealistic Style Transfer" 2019
 - 预印
 - [代码(非官方)](https://github.com/mousecpn/Joint-Bilateral-Learning)
 
-
+- "Ultrafast Photorealistic Style Transfer via Neural Architecture Search" 
+- 
