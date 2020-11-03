@@ -12,4 +12,9 @@
 - FastPhotoStyle "A Closed-form Solution to
 Photorealistic Image Stylization" ECCV 2018
 - NVIDIA提出，
-- 
+- [代码](https://github.com/NVIDIA/FastPhotoStyle)
+
+## 改进
+- WCT2 "Photorealistic Style Transfer via Wavelet Transforms" ECCV 2018
+- NVIDIA提出，
+- [代码](https://github.com/NVIDIA/FastPhotoStyle)
