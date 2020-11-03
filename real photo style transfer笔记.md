@@ -20,4 +20,6 @@ Photorealistic Image Stylization" ECCV 2018
 - [代码](https://github.com/ClovaAI/WCT2)
 
 ## 发展
+- "Ultrafast Photorealistic Style Transfer via Neural Architecture Search" 2019
+- 预印
 - 
