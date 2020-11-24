@@ -13,5 +13,11 @@
         return img, label
 ```
 
+2. __len__()
+```language
+
+```
+
+ 
 
 
