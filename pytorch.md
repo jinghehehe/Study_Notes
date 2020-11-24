@@ -14,8 +14,10 @@
 ```
 
 2. __len__()
+- 作用是返回数据集的长度，示例：
 ```language
-
+    def __len__(self):
+        return len(self.data)
 ```
 
  
