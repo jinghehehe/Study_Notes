@@ -44,3 +44,4 @@ A.static_foo()
 A.class_foo()
 ```
 
+## nn.Upsample 
