@@ -12,3 +12,10 @@ torch.cuda.set_device(id)
 ```
 ## os.mkdir()和os.makedirs()区别
 - mkdir只创建最后一级目录，mkdirs创建递归目录
+
+## Matplotlib中plt.rcParams用法（设置图像细节）
+```language
+import matplotlib.pyplot as plt
+plt.rcParams['font.sans-serif'] = ['SimHei']  # 用来正常显示中文标签
+plt.rcParams['axes.unicode_minus'] = False  # 用来正常显示负号
+```
