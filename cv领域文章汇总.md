@@ -1,4 +1,5 @@
 # cv领域文章汇总
+- [模型](https://github.com/rwightman/pytorch-image-models/)
 ***
 ## 多目标跟踪
 [专题讲解](https://zhuanlan.zhihu.com/p/97449724)
