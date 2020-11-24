@@ -25,7 +25,8 @@
 - 其一共干了两件事: 
 1. 定义了一堆成员变量, 到时候赋给DataLoaderIter
 2. 然后有一个__iter__() 函数, 把自己 "装进" DataLoaderIter 里面.
-
+## torch.utils.data.dataloader.DataLoaderIter
+- 作用是封装dataloader用于遍历
 ```language
 class CustomDataset(Dataset):
    # 自定义自己的dataset
