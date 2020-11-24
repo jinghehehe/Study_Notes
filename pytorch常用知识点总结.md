@@ -10,4 +10,5 @@ os.environ["CUDA_VISIBLE_DEVICES"] = "2"
 # set_device不建议使用
 torch.cuda.set_device(id)
 ```
-
+## os.mkdir()和os.makedirs()区别
+- mkdir只创建最后一级目录
