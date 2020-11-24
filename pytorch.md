@@ -22,7 +22,9 @@
 ## torch.utils.data.DataLoader
 - 类的定义：
 - class torch.utils.data.DataLoader(dataset, batch_size=1, shuffle=False, sampler=None, batch_sampler=None, num_workers=0, collate_fn=<function default_collate>, pin_memory=False, drop_last=False)
-- 
+- 其一共干了两件事: 
+1. 定义了一堆成员变量, 到时候赋给DataLoaderIter
+2. 然后有一个__iter__() 函数, 把自己 "装进" DataLoaderIter 里面.
  
 
 
