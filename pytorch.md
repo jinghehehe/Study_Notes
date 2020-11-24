@@ -26,6 +26,16 @@
 1. 定义了一堆成员变量, 到时候赋给DataLoaderIter
 2. 然后有一个__iter__() 函数, 把自己 "装进" DataLoaderIter 里面.
 
+```language
+class CustomDataset(Dataset):
+   # 自定义自己的dataset
+
+dataset = CustomDataset()
+dataloader = Dataloader(dataset, ...)
+
+for data in dataloader:
+   # training...
+```
 
  
 
