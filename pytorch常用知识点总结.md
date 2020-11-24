@@ -7,4 +7,7 @@ CUDA_VISIBLE_DEVICES=1 python python_script.py
 # 在 python 脚本中的 GPU 指定方式
 import os
 os.environ["CUDA_VISIBLE_DEVICES"] = "2"
+# set_device不建议使用
+torch.cuda.set_device(id)
 ```
+
