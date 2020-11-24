@@ -25,6 +25,8 @@
 - 其一共干了两件事: 
 1. 定义了一堆成员变量, 到时候赋给DataLoaderIter
 2. 然后有一个__iter__() 函数, 把自己 "装进" DataLoaderIter 里面.
+
+
  
 
 
