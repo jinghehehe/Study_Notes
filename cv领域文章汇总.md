@@ -15,3 +15,6 @@
 
 
 https://zhuanlan.zhihu.com/p/37998710
+
+## 图像分割
+[模型代码](https://github.com/qubvel/segmentation_models.pytorch)
