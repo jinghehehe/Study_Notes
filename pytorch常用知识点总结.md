@@ -20,5 +20,5 @@ plt.rcParams['font.sans-serif'] = ['SimHei']  # 用来正常显示中文标签
 plt.rcParams['axes.unicode_minus'] = False  # 用来正常显示负号
 ```
 ## @staticmethod和@classmethod的作用与区别
-- 一般来说，要使用类的方法，需先实例化对象再调用其方法
+- 一般来说，要使用类的方法，需先实例化对象再调用其方法，使用@staticmethod或@classmethod，就可以不需要实例化，直接类名.方法名()来调用。
 - 
