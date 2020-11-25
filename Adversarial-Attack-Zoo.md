@@ -19,6 +19,7 @@
 
 【CVPR-2020】One-Shot Adversarial Attacks on Visual Tracking With Dual Attention
 
+[代码](https://github.com/MasterBin-IIAU/CSA)
 [18年比赛第二名魔改技巧](https://cloud.tencent.com/developer/article/1166761)
 
 [20年比赛目标检测](https://zhuanlan.zhihu.com/p/193134042)
