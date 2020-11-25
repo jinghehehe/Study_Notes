@@ -14,6 +14,8 @@
 【ECCV-2020】efficient adversarial attacks for visual object tracking
 [论文](https://arxiv.org/abs/2008.00217)
 
+【CVPR-2020】
+[论文](https://openaccess.thecvf.com/content_CVPR_2020/html/Chen_One-Shot_Adversarial_Attacks_on_Visual_Tracking_With_Dual_Attention_CVPR_2020_paper.html)
 [18年比赛第二名魔改技巧](https://cloud.tencent.com/developer/article/1166761)
 
 [20年比赛目标检测](https://zhuanlan.zhihu.com/p/193134042)
