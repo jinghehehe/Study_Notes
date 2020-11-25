@@ -23,3 +23,5 @@
 [18年比赛第二名魔改技巧](https://cloud.tencent.com/developer/article/1166761)
 
 [20年比赛目标检测](https://zhuanlan.zhihu.com/p/193134042)
+
+[ICLR2020](https://zhuanlan.zhihu.com/p/98533370)
