@@ -27,3 +27,6 @@
 [ICLR2020](https://zhuanlan.zhihu.com/p/98533370)
 
 [GAN 与对抗样本攻击](https://www.chainnews.com/articles/456398782015.htm)
+[语义分割](https://zhuanlan.zhihu.com/p/256479943)
+[对抗伪装](http://blog.itpub.net/69946223/viewspace-2689791/)
+[18年前对抗综述](https://www.jiqizhixin.com/articles/2018-03-05-4)
