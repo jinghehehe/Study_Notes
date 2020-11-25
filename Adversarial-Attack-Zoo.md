@@ -25,3 +25,5 @@
 [20年比赛目标检测](https://zhuanlan.zhihu.com/p/193134042)
 
 [ICLR2020](https://zhuanlan.zhihu.com/p/98533370)
+
+[GAN 与对抗样本攻击](https://www.chainnews.com/articles/456398782015.htm)
