@@ -17,8 +17,8 @@
 【CVPR-2020】One-Shot Adversarial Attacks on Visual Tracking With Dual Attention
 [论文](https://openaccess.thecvf.com/content_CVPR_2020/html/Chen_One-Shot_Adversarial_Attacks_on_Visual_Tracking_With_Dual_Attention_CVPR_2020_paper.html)
 
-【CVPR-2020】One-Shot Adversarial Attacks on Visual Tracking With Dual Attention
-
+【CVPR-2020】Cooling-Shrinking Attack: Blinding the Tracker with Imperceptible Noises
+[论文](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yan_Cooling-Shrinking_Attack_Blinding_the_Tracker_With_Imperceptible_Noises_CVPR_2020_paper.pdf)
 [代码](https://github.com/MasterBin-IIAU/CSA)
 [18年比赛第二名魔改技巧](https://cloud.tencent.com/developer/article/1166761)
 
