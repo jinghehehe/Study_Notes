@@ -32,3 +32,5 @@
 [18年前对抗综述](https://www.jiqizhixin.com/articles/2018-03-05-4)
 [3D场景对抗攻击](https://zhuanlan.zhihu.com/p/74577133)
 [通用扰动](https://blog.csdn.net/tfcy694/article/details/80455899)
+[百度目标检测](https://zhuanlan.zhihu.com/p/90118248)
+[对抗专栏文章](https://zhuanlan.zhihu.com/p/38795225)
