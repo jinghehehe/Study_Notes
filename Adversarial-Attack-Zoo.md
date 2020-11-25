@@ -7,3 +7,4 @@
 
 【ECCV-2020】SPARK: Spatial-aware Online Incremental Attack Against Visual Tracking
 
+【ECCV-2020】efficient adversarial attacks for visual object tracking
