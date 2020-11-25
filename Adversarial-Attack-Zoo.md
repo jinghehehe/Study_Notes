@@ -30,3 +30,5 @@
 [语义分割](https://zhuanlan.zhihu.com/p/256479943)
 [对抗伪装](http://blog.itpub.net/69946223/viewspace-2689791/)
 [18年前对抗综述](https://www.jiqizhixin.com/articles/2018-03-05-4)
+[3D场景对抗攻击](https://zhuanlan.zhihu.com/p/74577133)
+[通用扰动](https://blog.csdn.net/tfcy694/article/details/80455899)
