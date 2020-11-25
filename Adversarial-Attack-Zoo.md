@@ -9,6 +9,8 @@
 [代码](https://github.com/joshuajss/RTAA)
 
 【ECCV-2020】SPARK: Spatial-aware Online Incremental Attack Against Visual Tracking
+[论文](https://arxiv.org/abs/1910.08681)
 
 【ECCV-2020】efficient adversarial attacks for visual object tracking
 [论文](https://arxiv.org/abs/2008.00217)
+
