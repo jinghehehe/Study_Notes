@@ -7,6 +7,10 @@
 ```language
 #！/bin/bash 
 ```
+### 查看文件夹占用大小
+```language
+du -h --max-depth=1 .
+```
 
 ### shell脚本执行方式
 - 利用./来执行
